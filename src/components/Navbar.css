@@ -1,0 +1,10 @@
+.nav-link:hover{
+    color:blue !important
+}
+
+.login:hover{
+    background-color: #DEE2E6 !important;
+}
+.navbar-brand span:hover{
+    color:blue !important
+}
