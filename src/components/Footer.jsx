@@ -14,7 +14,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-12">
                             <ul className='list-unstyled'>
-                                <li className='my-3'><a href="" className="text-decoration-none text-footer">for Job Seekers</a></li>
+                                <li className='my-3'><a href="" className="text-decoration-none text-footer">For Job Seekers</a></li>
                                 <li className='my-3'><a href="" className="text-decoration-none text-footer">Find Jobs</a></li>
                                 <li className='my-3'><a href="" className="text-decoration-none text-footer">Companies</a></li>
                                 <li className='my-3'><a href="" className="text-decoration-none text-footer">Career Advice</a></li>
