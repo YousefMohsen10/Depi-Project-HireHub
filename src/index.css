@@ -3,6 +3,9 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 
-.active{
-    color:blue !important
+.main-color{
+    color:#0F766E !important;
+}
+.bg-main-color{
+    background-color:#0F766E !important ;
 }

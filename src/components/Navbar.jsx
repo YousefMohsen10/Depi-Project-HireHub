@@ -1,4 +1,4 @@
-import logo from '../assets/Brandmark.svg'
+import logo from '../assets/Brandmark_green.svg'
 import './Navbar.css';
 function Navbar() {
     return (
@@ -27,8 +27,8 @@ function Navbar() {
                                 <a className="nav-link" aria-current="page" href="#">About</a>
                             </li>
                         </ul>
-                        <button className='btn btn-md text-primary rounded-3 mx-2 border border-2 fw-bold login '> <i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
-                        <button className='btn btn-md btn-primary rounded-3 mx-2 fw-bold'>Sign Up</button>
+                        <button className='btn btn-md main-color rounded-3 mx-2 border border-2 fw-bold login '> <i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
+                        <button className='btn btn-md bg-main-color text-white rounded-3 mx-2 fw-bold sign'>Sign Up</button>
                     </div>
                 </div>
             </nav>

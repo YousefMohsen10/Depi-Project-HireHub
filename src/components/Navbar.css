@@ -1,10 +1,16 @@
 .nav-link:hover{
-    color:blue !important
+    color:#0F766E !important
 }
 
 .login:hover{
     background-color: #DEE2E6 !important;
+    transition: 0.3s;
 }
-.navbar-brand span:hover{
-    color:blue !important
+.navbar-brand:hover{
+    color:#0F766E !important;
+    transition: 0.3s;
+}
+.sign:hover{
+    background-color: #165650 !important;
+    transition: 0.3s;
 }

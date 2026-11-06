@@ -1,5 +1,6 @@
 import './Footer.css';
-import logo from '../assets/Brandmark.svg'
+import '../index.css'
+import logo from '../assets/Brandmark_green.svg'
 function Footer() {
     return (
         <>
