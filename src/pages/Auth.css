@@ -1,0 +1,156 @@
+.auth-wrapper {
+  min-height: 100vh;
+}
+
+.auth-left {
+  width: 420px;
+  background: #1a7a5e;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (min-width: 992px) {
+  .auth-left {
+    width: 33.333%;
+  }
+}
+
+.auth-left::after {
+  content: "";
+  position: absolute;
+  top: -80px;
+  right: -80px;
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  border: 60px solid rgba(255, 255, 255, 0.07);
+  pointer-events: none;
+}
+
+.auth-right {
+  background: #fff;
+  overflow-y: auto;
+}
+
+.auth-form-wrap {
+  max-width: 420px;
+}
+
+.btn-role {
+  border: 1px solid #dee2e6;
+  background: #f8f9fa;
+  color: #495057;
+  font-size: 0.875rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s;
+}
+
+.btn-role:first-child {
+  border-radius: 8px 0 0 8px;
+}
+
+.btn-role:last-child {
+  border-radius: 0 8px 8px 0;
+}
+
+.btn-role.active {
+  background: #fff;
+  border-color: #1a7a5e;
+  color: #1a7a5e;
+  font-weight: 600;
+  box-shadow: none;
+}
+
+.auth-tabs {
+  border-bottom: none;
+  gap: 0.5rem;
+}
+
+.auth-tab {
+  background: #1a7a5e;
+  border: none;
+  border-bottom: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+  opacity: 0.65;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.auth-tab.active {
+  color: #fff;
+  border-bottom-color: transparent;
+  font-weight: 700;
+  opacity: 1;
+  box-shadow: 0 2px 8px rgba(26, 122, 94, 0.25);
+}
+
+.auth-tab:hover {
+  color: #fff;
+  opacity: 0.85;
+}
+
+.auth-input {
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+  padding: 0.6rem 0.9rem;
+  font-size: 0.9rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.auth-input:focus {
+  border-color: #1a7a5e;
+  box-shadow: 0 0 0 3px rgba(26, 122, 94, 0.12);
+}
+
+.btn-hirehub {
+  background: #1a7a5e !important;
+  color: #fff !important;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+}
+
+.btn-hirehub:hover {
+  background: #155f4a !important;
+  color: #fff !important;
+}
+
+.btn-social {
+  border: 1px solid #dee2e6;
+  background: #fff;
+  border-radius: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 1rem;
+  transition: all 0.2s;
+}
+
+.btn-social:hover {
+  background: #f8f9fa;
+}
+
+@media (max-width: 767px) {
+  .auth-left {
+    display: none !important;
+  }
+
+  .auth-form-wrap {
+    max-width: 100%;
+  }
+}
+
