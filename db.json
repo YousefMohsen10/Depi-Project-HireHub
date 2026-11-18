@@ -1,0 +1,262 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "icon": "fa-laptop-code",
+      "slug": "tech",
+      "jobsCount": 1240
+    },
+    {
+      "id": 2,
+      "name": "Marketing",
+      "icon": "fa-bullhorn",
+      "slug": "marketing",
+      "jobsCount": 620
+    },
+    {
+      "id": 3,
+      "name": "Design",
+      "icon": "fa-pen-ruler",
+      "slug": "design",
+      "jobsCount": 430
+    },
+    {
+      "id": 4,
+      "name": "Sales",
+      "icon": "fa-chart-line",
+      "slug": "sales",
+      "jobsCount": 710
+    },
+    {
+      "id": 5,
+      "name": "Finance",
+      "icon": "fa-coins",
+      "slug": "finance",
+      "jobsCount": 380
+    },
+    {
+      "id": 6,
+      "name": "Healthcare",
+      "icon": "fa-heart-pulse",
+      "slug": "healthcare",
+      "jobsCount": 520
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "icon": "fa-graduation-cap",
+      "slug": "education",
+      "jobsCount": 290
+    },
+    {
+      "id": 8,
+      "name": "Customer Support",
+      "icon": "fa-headset",
+      "slug": "support",
+      "jobsCount": 450
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Google",
+      "industry": "Technology",
+      "location": "Cairo, Egypt",
+      "openJobs": 42,
+      "color": "#4285F4"
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "industry": "Technology",
+      "location": "Giza, Egypt",
+      "openJobs": 35,
+      "color": "#0F766E"
+    },
+    {
+      "id": 3,
+      "name": "Amazon",
+      "industry": "E-commerce",
+      "location": "Alexandria, Egypt",
+      "openJobs": 51,
+      "color": "#F59E0B"
+    },
+    {
+      "id": 4,
+      "name": "Orange Egypt",
+      "industry": "Telecom",
+      "location": "Cairo, Egypt",
+      "openJobs": 28,
+      "color": "#F97316"
+    },
+    {
+      "id": 5,
+      "name": "Vodafone",
+      "industry": "Telecom",
+      "location": "Cairo, Egypt",
+      "openJobs": 24,
+      "color": "#DC2626"
+    },
+    {
+      "id": 6,
+      "name": "Valeo",
+      "industry": "Automotive",
+      "location": "Giza, Egypt",
+      "openJobs": 17,
+      "color": "#2563EB"
+    },
+    {
+      "id": 7,
+      "name": "Instabug",
+      "industry": "Software",
+      "location": "Cairo, Egypt",
+      "openJobs": 12,
+      "color": "#7C3AED"
+    },
+    {
+      "id": 8,
+      "name": "Fawry",
+      "industry": "Fintech",
+      "location": "Giza, Egypt",
+      "openJobs": 21,
+      "color": "#0891B2"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "company": "Google",
+      "companyColor": "#4285F4",
+      "location": "Cairo, Egypt",
+      "salary": "$800 – $1,200 / month",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "category": "tech",
+      "featured": true,
+      "postedAt": "2026-11-17"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "companyId": 3,
+      "company": "Amazon",
+      "companyColor": "#F59E0B",
+      "location": "Alexandria, Egypt",
+      "salary": "$900 – $1,400 / month",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "category": "tech",
+      "featured": true,
+      "postedAt": "2026-11-16"
+    },
+    {
+      "id": 3,
+      "title": "UI/UX Designer",
+      "companyId": 2,
+      "company": "Microsoft",
+      "companyColor": "#0F766E",
+      "location": "Giza, Egypt",
+      "salary": "$700 – $1,000 / month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "category": "design",
+      "featured": true,
+      "postedAt": "2026-11-15"
+    },
+    {
+      "id": 4,
+      "title": "Digital Marketing Specialist",
+      "companyId": 4,
+      "company": "Orange Egypt",
+      "companyColor": "#F97316",
+      "location": "Cairo, Egypt",
+      "salary": "$500 – $800 / month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "category": "marketing",
+      "featured": true,
+      "postedAt": "2026-11-14"
+    },
+    {
+      "id": 5,
+      "title": "Customer Support Agent",
+      "companyId": 5,
+      "company": "Vodafone",
+      "companyColor": "#DC2626",
+      "location": "Cairo, Egypt",
+      "salary": "$300 – $500 / month",
+      "type": "Part-time",
+      "workMode": "On-site",
+      "category": "support",
+      "featured": true,
+      "postedAt": "2026-11-13"
+    },
+    {
+      "id": 6,
+      "title": "Data Analyst",
+      "companyId": 8,
+      "company": "Fawry",
+      "companyColor": "#0891B2",
+      "location": "Giza, Egypt",
+      "salary": "$650 – $950 / month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "category": "finance",
+      "featured": true,
+      "postedAt": "2026-11-12"
+    },
+    {
+      "id": 7,
+      "title": "React Developer",
+      "companyId": 7,
+      "company": "Instabug",
+      "companyColor": "#7C3AED",
+      "location": "Cairo, Egypt",
+      "salary": "$850 – $1,300 / month",
+      "type": "Contract",
+      "workMode": "Remote",
+      "category": "tech",
+      "featured": false,
+      "postedAt": "2026-11-11"
+    },
+    {
+      "id": 8,
+      "title": "Sales Executive",
+      "companyId": 6,
+      "company": "Valeo",
+      "companyColor": "#2563EB",
+      "location": "Giza, Egypt",
+      "salary": "$450 – $750 / month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "category": "sales",
+      "featured": false,
+      "postedAt": "2026-11-10"
+    }
+  ],
+  "applications": [],
+  "savedJobs": [],
+  "stats": [
+    {
+      "id": 1,
+      "label": "Jobs Posted",
+      "value": 12480,
+      "icon": "fa-briefcase"
+    },
+    {
+      "id": 2,
+      "label": "Companies",
+      "value": 3200,
+      "icon": "fa-building"
+    },
+    {
+      "id": 3,
+      "label": "Candidates Hired",
+      "value": 8750,
+      "icon": "fa-user-check"
+    }
+  ]
+}

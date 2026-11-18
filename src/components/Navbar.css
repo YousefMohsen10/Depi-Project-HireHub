@@ -1,0 +1,18 @@
+.nav-link:hover,
+.nav-link.active {
+    color: #0F766E !important;
+}
+
+.login:hover {
+    background-color: #DEE2E6 !important;
+    transition: 0.3s;
+}
+.navbar-brand:hover {
+    color: #0F766E !important;
+    transition: 0.3s;
+}
+.sign:hover {
+    background-color: #165650 !important;
+    color: #fff !important;
+    transition: 0.3s;
+}

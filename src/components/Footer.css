@@ -1,0 +1,12 @@
+.footer-bg{
+    background-color: #15233F;
+}
+.white-svg {
+    filter: brightness(0) invert(1);
+}
+.text-footer{
+    color:#B6C2D6 !important;
+}
+a:hover{
+    color: #fff !important;
+}
