@@ -1,0 +1,1541 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technology",
+      "icon": "monitor",
+      "jobsCount": 10
+    },
+    {
+      "id": 2,
+      "name": "Marketing",
+      "icon": "megaphone",
+      "jobsCount": 3
+    },
+    {
+      "id": 3,
+      "name": "Design",
+      "icon": "palette",
+      "jobsCount": 4
+    },
+    {
+      "id": 4,
+      "name": "Sales",
+      "icon": "trending-up",
+      "jobsCount": 2
+    },
+    {
+      "id": 5,
+      "name": "Finance",
+      "icon": "landmark",
+      "jobsCount": 2
+    },
+    {
+      "id": 6,
+      "name": "Healthcare",
+      "icon": "heart-pulse",
+      "jobsCount": 1
+    },
+    {
+      "id": 7,
+      "name": "Education",
+      "icon": "graduation-cap",
+      "jobsCount": 1
+    },
+    {
+      "id": 8,
+      "name": "Customer Service",
+      "icon": "headset",
+      "jobsCount": 1
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Google",
+      "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "Technology",
+      "location": "Cairo, Egypt",
+      "size": "10,000+ employees",
+      "founded": 1998,
+      "website": "https://google.com",
+      "tagline": "Build products that make a difference for billions.",
+      "about": "Our mission is to organize the world's information and make it universally accessible and useful.",
+      "countries": 40,
+      "openJobs": 4,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "Software & cloud",
+      "location": "Giza, Egypt",
+      "size": "10,000+ employees",
+      "founded": 1975,
+      "website": "https://microsoft.com",
+      "tagline": "Empower every person to achieve more.",
+      "about": "From Windows and Azure to GitHub, our teams build tools that help people and organizations thrive.",
+      "countries": 12,
+      "openJobs": 3,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Amazon",
+      "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "E-commerce & technology",
+      "location": "Alexandria, Egypt",
+      "size": "10,000+ employees",
+      "founded": 1994,
+      "website": "https://amazon.com",
+      "tagline": "Build the future of shopping and cloud.",
+      "about": "We obsess over customers and invent on their behalf across retail, cloud, and logistics.",
+      "countries": 70,
+      "openJobs": 3,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Meta",
+      "logo": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "Technology",
+      "location": "Cairo, Egypt",
+      "size": "5,000+ employees",
+      "founded": 2004,
+      "website": "https://meta.com",
+      "tagline": "Bring people closer together.",
+      "about": "We build technologies that help people connect, find communities, and grow businesses.",
+      "countries": 1,
+      "openJobs": 3,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Spotify",
+      "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "Music & entertainment",
+      "location": "Cairo, Egypt",
+      "size": "5,000+ employees",
+      "founded": 2006,
+      "website": "https://spotify.com",
+      "tagline": "Give creativity a place to play.",
+      "about": "We unlock the potential of human creativity by giving artists and listeners new ways to connect.",
+      "countries": 1,
+      "openJobs": 3,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Netflix",
+      "logo": "https://www.google.com/s2/favicons?domain=netflix.com&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "Media & entertainment",
+      "location": "Cairo, Egypt",
+      "size": "5,000+ employees",
+      "founded": 1997,
+      "website": "https://netflix.com",
+      "tagline": "Entertain the world. Shape what comes next.",
+      "about": "We bring stories from every corner of the world to over 250 million members.",
+      "countries": 90,
+      "openJobs": 2,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Vodafone Egypt",
+      "logo": "https://www.google.com/s2/favicons?domain=vodafone.com.eg&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "Telecom",
+      "location": "Cairo, Egypt",
+      "size": "5,000+ employees",
+      "founded": 1998,
+      "website": "https://vodafone.com.eg",
+      "tagline": "Connecting people, powering Egypt's digital future.",
+      "about": "One of the largest telecom operators in Egypt, investing in networks, fintech and digital services.",
+      "countries": 1,
+      "openJobs": 3,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Fawry",
+      "logo": "https://www.google.com/s2/favicons?domain=fawry.com&sz=128",
+      "cover": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1600",
+      "industry": "Fintech",
+      "location": "Giza, Egypt",
+      "size": "1,000+ employees",
+      "founded": 2008,
+      "website": "https://fawry.com",
+      "tagline": "Egypt's leading digital payments platform.",
+      "about": "We make everyday payments simple for millions of people and thousands of merchants.",
+      "countries": 1,
+      "openJobs": 3,
+      "lifeAtCompany": {
+        "intro": "Big ideas start with a team that feels supported.",
+        "perks": [
+          "Flexible work",
+          "Learning & development",
+          "Health & wellbeing"
+        ]
+      }
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "companyId": 1,
+      "company": "Google",
+      "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "category": "Technology",
+      "location": "Cairo, Egypt",
+      "salaryMin": 800,
+      "salaryMax": 1200,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-19T11:00:00Z",
+      "deadline": "2026-12-27",
+      "applicants": 157,
+      "status": "active",
+      "description": "Google is looking for a Frontend Developer to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Frontend Developer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with React",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Health insurance",
+        "Annual learning budget",
+        "Performance bonus",
+        "Flexible working hours"
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "CSS",
+        "Git"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Product Designer",
+      "companyId": 1,
+      "company": "Google",
+      "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "category": "Design",
+      "location": "Cairo, Egypt",
+      "salaryMin": 900,
+      "salaryMax": 1500,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-17T06:00:00Z",
+      "deadline": "2026-12-30",
+      "applicants": 25,
+      "status": "active",
+      "description": "Google is looking for a Product Designer to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Product Designer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Figma",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Annual learning budget",
+        "Health insurance",
+        "Flexible working hours",
+        "Performance bonus"
+      ],
+      "skills": [
+        "Figma",
+        "Prototyping",
+        "User research"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cloud Solutions Engineer",
+      "companyId": 1,
+      "company": "Google",
+      "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "category": "Technology",
+      "location": "Cairo, Egypt",
+      "salaryMin": 1200,
+      "salaryMax": 1800,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "experienceLevel": "Senior",
+      "postedAt": "2026-11-15T12:00:00Z",
+      "deadline": "2026-12-11",
+      "applicants": 65,
+      "status": "active",
+      "description": "Google is looking for a Cloud Solutions Engineer to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Cloud Solutions Engineer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "5+ years of relevant experience",
+        "Hands-on experience with GCP",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Performance bonus",
+        "Health insurance",
+        "Flexible working hours",
+        "Annual learning budget"
+      ],
+      "skills": [
+        "GCP",
+        "Kubernetes",
+        "Terraform",
+        "Python"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Designer",
+      "companyId": 2,
+      "company": "Microsoft",
+      "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "category": "Design",
+      "location": "Giza, Egypt",
+      "salaryMin": 700,
+      "salaryMax": 1000,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "experienceLevel": "Junior",
+      "postedAt": "2026-11-18T12:00:00Z",
+      "deadline": "2026-12-18",
+      "applicants": 19,
+      "status": "active",
+      "description": "Microsoft is looking for a UI/UX Designer to join our Giza team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a UI/UX Designer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with Figma",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Performance bonus",
+        "Annual learning budget",
+        "Paid time off",
+        "Flexible working hours"
+      ],
+      "skills": [
+        "Figma",
+        "Design systems",
+        "Wireframing"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Software Engineer",
+      "companyId": 2,
+      "company": "Microsoft",
+      "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "category": "Technology",
+      "location": "Giza, Egypt",
+      "salaryMin": 1000,
+      "salaryMax": 1700,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-16T10:00:00Z",
+      "deadline": "2026-12-11",
+      "applicants": 154,
+      "status": "active",
+      "description": "Microsoft is looking for a Software Engineer to join our Giza team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Software Engineer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with C#",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Flexible working hours",
+        "Annual learning budget",
+        "Health insurance",
+        "Performance bonus"
+      ],
+      "skills": [
+        "C#",
+        ".NET",
+        "Azure",
+        "SQL"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Backend Developer",
+      "companyId": 3,
+      "company": "Amazon",
+      "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+      "category": "Technology",
+      "location": "Alexandria, Egypt",
+      "salaryMin": 900,
+      "salaryMax": 1400,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-19T07:00:00Z",
+      "deadline": "2026-12-10",
+      "applicants": 148,
+      "status": "active",
+      "description": "Amazon is looking for a Backend Developer to join our Alexandria team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Backend Developer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Node.js",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Health insurance",
+        "Performance bonus",
+        "Flexible working hours",
+        "Paid time off"
+      ],
+      "skills": [
+        "Node.js",
+        "PostgreSQL",
+        "AWS",
+        "REST APIs"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Operations Analyst",
+      "companyId": 3,
+      "company": "Amazon",
+      "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+      "category": "Finance",
+      "location": "Alexandria, Egypt",
+      "salaryMin": 500,
+      "salaryMax": 800,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "experienceLevel": "Junior",
+      "postedAt": "2026-11-14T05:00:00Z",
+      "deadline": "2026-12-31",
+      "applicants": 206,
+      "status": "active",
+      "description": "Amazon is looking for a Operations Analyst to join our Alexandria team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Operations Analyst",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with Excel",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Flexible working hours",
+        "Paid time off",
+        "Performance bonus",
+        "Annual learning budget"
+      ],
+      "skills": [
+        "Excel",
+        "SQL",
+        "Reporting"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "React Developer",
+      "companyId": 4,
+      "company": "Meta",
+      "logo": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+      "category": "Technology",
+      "location": "Cairo, Egypt",
+      "salaryMin": 1000,
+      "salaryMax": 1600,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "experienceLevel": "Senior",
+      "postedAt": "2026-11-18T07:00:00Z",
+      "deadline": "2026-12-23",
+      "applicants": 71,
+      "status": "active",
+      "description": "Meta is looking for a React Developer to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a React Developer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "5+ years of relevant experience",
+        "Hands-on experience with React",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Annual learning budget",
+        "Performance bonus",
+        "Health insurance",
+        "Paid time off"
+      ],
+      "skills": [
+        "React",
+        "Redux",
+        "GraphQL",
+        "Testing"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Data Scientist",
+      "companyId": 4,
+      "company": "Meta",
+      "logo": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+      "category": "Technology",
+      "location": "Cairo, Egypt",
+      "salaryMin": 1100,
+      "salaryMax": 1700,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Senior",
+      "postedAt": "2026-11-12T04:00:00Z",
+      "deadline": "2027-01-04",
+      "applicants": 232,
+      "status": "active",
+      "description": "Meta is looking for a Data Scientist to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Data Scientist",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "5+ years of relevant experience",
+        "Hands-on experience with Python",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Flexible working hours",
+        "Paid time off",
+        "Annual learning budget",
+        "Health insurance"
+      ],
+      "skills": [
+        "Python",
+        "Machine learning",
+        "SQL",
+        "Statistics"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Marketing Intern",
+      "companyId": 5,
+      "company": "Spotify",
+      "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=128",
+      "category": "Marketing",
+      "location": "Cairo, Egypt",
+      "salaryMin": 300,
+      "salaryMax": 500,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Internship",
+      "workMode": "Remote",
+      "experienceLevel": "Entry-level",
+      "postedAt": "2026-11-17T11:00:00Z",
+      "deadline": "2026-12-30",
+      "applicants": 50,
+      "status": "active",
+      "description": "Spotify is looking for a Marketing Intern to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Marketing Intern",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with Social media",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Flexible working hours",
+        "Annual learning budget",
+        "Paid time off",
+        "Performance bonus"
+      ],
+      "skills": [
+        "Social media",
+        "Copywriting",
+        "Canva"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Content Marketing Specialist",
+      "companyId": 5,
+      "company": "Spotify",
+      "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=128",
+      "category": "Marketing",
+      "location": "Cairo, Egypt",
+      "salaryMin": 600,
+      "salaryMax": 950,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-13T12:00:00Z",
+      "deadline": "2026-12-08",
+      "applicants": 203,
+      "status": "active",
+      "description": "Spotify is looking for a Content Marketing Specialist to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Content Marketing Specialist",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with SEO",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Performance bonus",
+        "Flexible working hours",
+        "Annual learning budget",
+        "Paid time off"
+      ],
+      "skills": [
+        "SEO",
+        "Content strategy",
+        "Analytics"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Product Designer",
+      "companyId": 6,
+      "company": "Netflix",
+      "logo": "https://www.google.com/s2/favicons?domain=netflix.com&sz=128",
+      "category": "Design",
+      "location": "Giza, Egypt",
+      "salaryMin": 900,
+      "salaryMax": 1500,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-15T03:00:00Z",
+      "deadline": "2027-01-04",
+      "applicants": 156,
+      "status": "active",
+      "description": "Netflix is looking for a Product Designer to join our Giza team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Product Designer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Figma",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Paid time off",
+        "Health insurance",
+        "Performance bonus",
+        "Annual learning budget"
+      ],
+      "skills": [
+        "Figma",
+        "Motion design",
+        "Storytelling"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Customer Support Agent",
+      "companyId": 7,
+      "company": "Vodafone Egypt",
+      "logo": "https://www.google.com/s2/favicons?domain=vodafone.com.eg&sz=128",
+      "category": "Customer Service",
+      "location": "Cairo, Egypt",
+      "salaryMin": 300,
+      "salaryMax": 500,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Part-time",
+      "workMode": "On-site",
+      "experienceLevel": "Entry-level",
+      "postedAt": "2026-11-19T05:00:00Z",
+      "deadline": "2026-12-08",
+      "applicants": 23,
+      "status": "active",
+      "description": "Vodafone Egypt is looking for a Customer Support Agent to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Customer Support Agent",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with Communication",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Flexible working hours",
+        "Paid time off",
+        "Annual learning budget",
+        "Performance bonus"
+      ],
+      "skills": [
+        "Communication",
+        "Arabic & English",
+        "CRM tools"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Digital Marketing Specialist",
+      "companyId": 7,
+      "company": "Vodafone Egypt",
+      "logo": "https://www.google.com/s2/favicons?domain=vodafone.com.eg&sz=128",
+      "category": "Marketing",
+      "location": "Cairo, Egypt",
+      "salaryMin": 500,
+      "salaryMax": 800,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-16T02:00:00Z",
+      "deadline": "2026-12-26",
+      "applicants": 13,
+      "status": "active",
+      "description": "Vodafone Egypt is looking for a Digital Marketing Specialist to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Digital Marketing Specialist",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Google Ads",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Paid time off",
+        "Flexible working hours",
+        "Health insurance",
+        "Performance bonus"
+      ],
+      "skills": [
+        "Google Ads",
+        "Meta Ads",
+        "Analytics"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Sales Executive",
+      "companyId": 7,
+      "company": "Vodafone Egypt",
+      "logo": "https://www.google.com/s2/favicons?domain=vodafone.com.eg&sz=128",
+      "category": "Sales",
+      "location": "Cairo, Egypt",
+      "salaryMin": 450,
+      "salaryMax": 900,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "experienceLevel": "Junior",
+      "postedAt": "2026-11-11T05:00:00Z",
+      "deadline": "2026-12-07",
+      "applicants": 63,
+      "status": "active",
+      "description": "Vodafone Egypt is looking for a Sales Executive to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Sales Executive",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with Negotiation",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Flexible working hours",
+        "Annual learning budget",
+        "Performance bonus",
+        "Health insurance"
+      ],
+      "skills": [
+        "Negotiation",
+        "CRM",
+        "Lead generation"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Data Analyst",
+      "companyId": 8,
+      "company": "Fawry",
+      "logo": "https://www.google.com/s2/favicons?domain=fawry.com&sz=128",
+      "category": "Technology",
+      "location": "Giza, Egypt",
+      "salaryMin": 650,
+      "salaryMax": 950,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Junior",
+      "postedAt": "2026-11-18T06:00:00Z",
+      "deadline": "2026-12-29",
+      "applicants": 231,
+      "status": "active",
+      "description": "Fawry is looking for a Data Analyst to join our Giza team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Data Analyst",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with SQL",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Paid time off",
+        "Health insurance",
+        "Performance bonus",
+        "Annual learning budget"
+      ],
+      "skills": [
+        "SQL",
+        "Power BI",
+        "Excel",
+        "Python"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Financial Analyst",
+      "companyId": 8,
+      "company": "Fawry",
+      "logo": "https://www.google.com/s2/favicons?domain=fawry.com&sz=128",
+      "category": "Finance",
+      "location": "Giza, Egypt",
+      "salaryMin": 700,
+      "salaryMax": 1100,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-10T06:00:00Z",
+      "deadline": "2026-12-21",
+      "applicants": 234,
+      "status": "active",
+      "description": "Fawry is looking for a Financial Analyst to join our Giza team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Financial Analyst",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Financial modeling",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Annual learning budget",
+        "Paid time off",
+        "Flexible working hours",
+        "Performance bonus"
+      ],
+      "skills": [
+        "Financial modeling",
+        "Excel",
+        "Reporting"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Mobile Developer (Flutter)",
+      "companyId": 8,
+      "company": "Fawry",
+      "logo": "https://www.google.com/s2/favicons?domain=fawry.com&sz=128",
+      "category": "Technology",
+      "location": "Giza, Egypt",
+      "salaryMin": 800,
+      "salaryMax": 1300,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Contract",
+      "workMode": "Remote",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-14T06:00:00Z",
+      "deadline": "2026-12-26",
+      "applicants": 182,
+      "status": "active",
+      "description": "Fawry is looking for a Mobile Developer (Flutter) to join our Giza team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Mobile Developer (Flutter)",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Flutter",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Paid time off",
+        "Annual learning budget",
+        "Health insurance",
+        "Flexible working hours"
+      ],
+      "skills": [
+        "Flutter",
+        "Dart",
+        "REST APIs",
+        "Firebase"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "QA Engineer",
+      "companyId": 2,
+      "company": "Microsoft",
+      "logo": "https://www.google.com/s2/favicons?domain=microsoft.com&sz=128",
+      "category": "Technology",
+      "location": "Giza, Egypt",
+      "salaryMin": 600,
+      "salaryMax": 1000,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Junior",
+      "postedAt": "2026-11-08T10:00:00Z",
+      "deadline": "2026-12-13",
+      "applicants": 67,
+      "status": "active",
+      "description": "Microsoft is looking for a QA Engineer to join our Giza team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a QA Engineer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with Test automation",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Annual learning budget",
+        "Health insurance",
+        "Performance bonus",
+        "Paid time off"
+      ],
+      "skills": [
+        "Test automation",
+        "Selenium",
+        "Jira"
+      ]
+    },
+    {
+      "id": 20,
+      "title": "High School Computer Science Teacher",
+      "companyId": 5,
+      "company": "Spotify",
+      "logo": "https://www.google.com/s2/favicons?domain=spotify.com&sz=128",
+      "category": "Education",
+      "location": "Cairo, Egypt",
+      "salaryMin": 400,
+      "salaryMax": 650,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Part-time",
+      "workMode": "On-site",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-06T08:00:00Z",
+      "deadline": "2026-12-22",
+      "applicants": 9,
+      "status": "active",
+      "description": "Spotify is looking for a High School Computer Science Teacher to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a High School Computer Science Teacher",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Teaching",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Annual learning budget",
+        "Paid time off",
+        "Flexible working hours",
+        "Performance bonus"
+      ],
+      "skills": [
+        "Teaching",
+        "Python",
+        "Curriculum design"
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Healthcare Data Coordinator",
+      "companyId": 3,
+      "company": "Amazon",
+      "logo": "https://www.google.com/s2/favicons?domain=amazon.com&sz=128",
+      "category": "Healthcare",
+      "location": "Alexandria, Egypt",
+      "salaryMin": 450,
+      "salaryMax": 700,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "On-site",
+      "experienceLevel": "Entry-level",
+      "postedAt": "2026-11-09T03:00:00Z",
+      "deadline": "2026-12-24",
+      "applicants": 40,
+      "status": "active",
+      "description": "Amazon is looking for a Healthcare Data Coordinator to join our Alexandria team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Healthcare Data Coordinator",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with Data entry",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Performance bonus",
+        "Health insurance",
+        "Annual learning budget",
+        "Flexible working hours"
+      ],
+      "skills": [
+        "Data entry",
+        "Excel",
+        "Attention to detail"
+      ]
+    },
+    {
+      "id": 22,
+      "title": "DevOps Engineer",
+      "companyId": 1,
+      "company": "Google",
+      "logo": "https://www.google.com/s2/favicons?domain=google.com&sz=128",
+      "category": "Technology",
+      "location": "Cairo, Egypt",
+      "salaryMin": 1300,
+      "salaryMax": 1900,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Remote",
+      "experienceLevel": "Senior",
+      "postedAt": "2026-11-17T06:00:00Z",
+      "deadline": "2026-12-29",
+      "applicants": 108,
+      "status": "active",
+      "description": "Google is looking for a DevOps Engineer to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a DevOps Engineer",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "5+ years of relevant experience",
+        "Hands-on experience with Docker",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Health insurance",
+        "Paid time off",
+        "Flexible working hours",
+        "Annual learning budget"
+      ],
+      "skills": [
+        "Docker",
+        "CI/CD",
+        "Linux",
+        "Monitoring"
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Account Manager",
+      "companyId": 6,
+      "company": "Netflix",
+      "logo": "https://www.google.com/s2/favicons?domain=netflix.com&sz=128",
+      "category": "Sales",
+      "location": "Cairo, Egypt",
+      "salaryMin": 700,
+      "salaryMax": 1200,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Full-time",
+      "workMode": "Hybrid",
+      "experienceLevel": "Mid-level",
+      "postedAt": "2026-11-05T12:00:00Z",
+      "deadline": "2026-12-16",
+      "applicants": 25,
+      "status": "active",
+      "description": "Netflix is looking for a Account Manager to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a Account Manager",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "3+ years of relevant experience",
+        "Hands-on experience with Client relations",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Annual learning budget",
+        "Paid time off",
+        "Health insurance",
+        "Flexible working hours"
+      ],
+      "skills": [
+        "Client relations",
+        "Presentations",
+        "CRM"
+      ]
+    },
+    {
+      "id": 24,
+      "title": "UX Research Intern",
+      "companyId": 4,
+      "company": "Meta",
+      "logo": "https://www.google.com/s2/favicons?domain=meta.com&sz=128",
+      "category": "Design",
+      "location": "Cairo, Egypt",
+      "salaryMin": 300,
+      "salaryMax": 450,
+      "currency": "USD",
+      "salaryPeriod": "month",
+      "type": "Internship",
+      "workMode": "Hybrid",
+      "experienceLevel": "Entry-level",
+      "postedAt": "2026-11-15T07:00:00Z",
+      "deadline": "2026-12-07",
+      "applicants": 34,
+      "status": "active",
+      "description": "Meta is looking for a UX Research Intern to join our Cairo team. You will work with cross-functional teams to ship high-quality work that reaches real users.",
+      "responsibilities": [
+        "Own day-to-day delivery as a UX Research Intern",
+        "Collaborate with product, design and engineering teams",
+        "Share knowledge and contribute to team standards",
+        "Measure impact and iterate based on feedback"
+      ],
+      "requirements": [
+        "0-1 years of relevant experience",
+        "Hands-on experience with User interviews",
+        "Strong communication in English",
+        "Problem-solving mindset"
+      ],
+      "benefits": [
+        "Health insurance",
+        "Annual learning budget",
+        "Flexible working hours",
+        "Performance bonus"
+      ],
+      "skills": [
+        "User interviews",
+        "Surveys",
+        "Figma"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "supabaseId": "replace-with-supabase-uid",
+      "role": "candidate",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "location": "Cairo, Egypt",
+      "headline": "Frontend Developer | React & TypeScript",
+      "avatar": null,
+      "about": "I'm a frontend developer based in Cairo, building accessible, thoughtful digital experiences. I enjoy turning complex problems into simple interfaces using React, TypeScript, and a strong eye for design.",
+      "skills": [
+        "React",
+        "TypeScript",
+        "JavaScript",
+        "HTML & CSS",
+        "Figma",
+        "Git"
+      ],
+      "experience": [
+        {
+          "id": 1,
+          "title": "Frontend Developer",
+          "company": "Bright Digital",
+          "type": "Full-time",
+          "from": "2024-01",
+          "to": null,
+          "location": "Cairo, Egypt",
+          "description": "Build responsive web applications with React and collaborate with designers to deliver accessible user experiences."
+        }
+      ],
+      "education": [
+        {
+          "id": 1,
+          "degree": "B.Sc. in Computer Science",
+          "school": "Cairo University",
+          "from": 2019,
+          "to": 2023,
+          "location": "Cairo, Egypt"
+        }
+      ],
+      "resume": {
+        "fileName": "Alex_Morgan_Resume.pdf",
+        "sizeKB": 245,
+        "uploadedAt": "2026-10-10T09:00:00Z"
+      },
+      "links": {
+        "linkedin": "https://linkedin.com/in/alex-morgan",
+        "portfolio": "https://alexmorgan.dev",
+        "github": "https://github.com/alexmorgan"
+      }
+    },
+    {
+      "id": 2,
+      "supabaseId": "replace-with-supabase-uid-2",
+      "role": "employer",
+      "fullName": "Salma Nabil",
+      "email": "salma@fawry.example",
+      "companyId": 8,
+      "companyName": "Fawry"
+    }
+  ],
+  "savedJobs": [
+    {
+      "id": 2,
+      "userId": 1,
+      "jobId": 4,
+      "savedAt": "2026-11-20T10:00:00Z"
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "jobId": 3,
+      "savedAt": "2026-11-18T12:00:00Z"
+    },
+    {
+      "id": 8,
+      "userId": 1,
+      "jobId": 22,
+      "savedAt": "2026-11-17T09:00:00Z"
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "jobId": 10,
+      "savedAt": "2026-11-13T17:00:00Z"
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "jobId": 16,
+      "savedAt": "2026-11-08T21:00:00Z"
+    },
+    {
+      "id": 1,
+      "userId": 1,
+      "jobId": 1,
+      "savedAt": "2026-11-08T17:00:00Z"
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "jobId": 12,
+      "savedAt": "2026-11-08T17:00:00Z"
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "jobId": 6,
+      "savedAt": "2026-11-08T08:00:00Z"
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "jobId": 8,
+      "savedAt": "2026-10-31T04:00:00Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "userId": 1,
+      "jobId": 1,
+      "status": "In Review",
+      "appliedAt": "2026-11-14T12:00:00Z",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "portfolio": "https://alexmorgan.dev",
+      "resumeFileName": "Alex_Morgan_Resume.pdf",
+      "coverLetter": "I'm excited to apply for this role and believe my experience with modern web tooling is a strong fit.",
+      "interview": null
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "jobId": 4,
+      "status": "Interview",
+      "appliedAt": "2026-11-12T12:00:00Z",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "portfolio": "https://alexmorgan.dev",
+      "resumeFileName": "Alex_Morgan_Resume.pdf",
+      "coverLetter": "I'm excited to apply for this role and believe my experience with modern web tooling is a strong fit.",
+      "interview": {
+        "date": "2026-11-23T11:00:00Z",
+        "mode": "Online"
+      }
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "jobId": 6,
+      "status": "Applied",
+      "appliedAt": "2026-11-10T12:00:00Z",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "portfolio": "https://alexmorgan.dev",
+      "resumeFileName": "Alex_Morgan_Resume.pdf",
+      "coverLetter": "I'm excited to apply for this role and believe my experience with modern web tooling is a strong fit.",
+      "interview": null
+    },
+    {
+      "id": 4,
+      "userId": 1,
+      "jobId": 10,
+      "status": "Applied",
+      "appliedAt": "2026-11-08T12:00:00Z",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "portfolio": "https://alexmorgan.dev",
+      "resumeFileName": "Alex_Morgan_Resume.pdf",
+      "coverLetter": "I'm excited to apply for this role and believe my experience with modern web tooling is a strong fit.",
+      "interview": null
+    },
+    {
+      "id": 5,
+      "userId": 1,
+      "jobId": 8,
+      "status": "Not selected",
+      "appliedAt": "2026-11-06T12:00:00Z",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "portfolio": "https://alexmorgan.dev",
+      "resumeFileName": "Alex_Morgan_Resume.pdf",
+      "coverLetter": "I'm excited to apply for this role and believe my experience with modern web tooling is a strong fit.",
+      "interview": null
+    },
+    {
+      "id": 6,
+      "userId": 1,
+      "jobId": 12,
+      "status": "Withdrawn",
+      "appliedAt": "2026-11-03T12:00:00Z",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "portfolio": "https://alexmorgan.dev",
+      "resumeFileName": "Alex_Morgan_Resume.pdf",
+      "coverLetter": "I'm excited to apply for this role and believe my experience with modern web tooling is a strong fit.",
+      "interview": null
+    },
+    {
+      "id": 7,
+      "userId": 1,
+      "jobId": 2,
+      "status": "Applied",
+      "appliedAt": "2026-10-31T12:00:00Z",
+      "fullName": "Alex Morgan",
+      "email": "alex@example.com",
+      "phone": "+20 100 123 4567",
+      "portfolio": "https://alexmorgan.dev",
+      "resumeFileName": "Alex_Morgan_Resume.pdf",
+      "coverLetter": "I'm excited to apply for this role and believe my experience with modern web tooling is a strong fit.",
+      "interview": null
+    },
+    {
+      "id": 8,
+      "userId": 3,
+      "jobId": 1,
+      "status": "Shortlisted",
+      "appliedAt": "2026-11-16T12:00:00Z",
+      "fullName": "Omar Hassan",
+      "email": "omar@example.com",
+      "phone": "+20 111 222 3344",
+      "portfolio": "",
+      "resumeFileName": "Omar_CV.pdf",
+      "coverLetter": "",
+      "interview": null
+    }
+  ]
+}
