@@ -1,0 +1,120 @@
+/* Jobs listing page */
+.jobs-search-bar {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.filters-panel {
+  background-color: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  padding: 1.25rem;
+  position: sticky;
+  top: 1rem;
+}
+
+.filter-section {
+  border-bottom: 1px solid #f0f0f0;
+  padding-bottom: 1rem;
+}
+
+.filter-section:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.jobs-checkbox:checked {
+  background-color: #0F766E !important;
+  border-color: #0F766E !important;
+}
+
+.jobs-checkbox:focus {
+  box-shadow: 0 0 0 0.2rem rgba(15, 118, 110, 0.25) !important;
+}
+
+.jobs-range::-webkit-slider-thumb {
+  background-color: #0F766E;
+}
+.jobs-range::-moz-range-thumb {
+  background-color: #0F766E;
+}
+.jobs-range:focus {
+  box-shadow: 0 0 0 0.2rem rgba(15, 118, 110, 0.25);
+}
+.jobs-range {
+  accent-color: #0F766E;
+}
+
+.job-card {
+  transition: box-shadow 0.2s, transform 0.2s;
+  border-color: #e9ecef !important;
+}
+.job-card:hover {
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transform: translateY(-1px);
+}
+
+.job-company-logo {
+  object-fit: contain;
+  border: 1px solid #e9ecef;
+  background: #fff;
+  padding: 2px;
+}
+
+.jobs-badge-primary {
+  background-color: #E0F2F1 !important;
+  color: #0F766E !important;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.jobs-badge-secondary {
+  background-color: #F1F5F9 !important;
+  color: #475569 !important;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
+
+.jobs-filter-tag {
+  background-color: #E0F2F1;
+  color: #0F766E;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.jobs-tag-close {
+  width: 0.6em;
+  height: 0.6em;
+  opacity: 0.7;
+}
+.jobs-tag-close:hover {
+  opacity: 1;
+}
+
+.bookmark-btn {
+  background: none;
+  border: none;
+  line-height: 1;
+}
+.bookmark-btn-inline {
+  background: none;
+  border: none;
+  line-height: 1;
+}
+
+.view-job-btn:hover {
+  background-color: #165650 !important;
+  transition: 0.2s;
+}
+
+/* Pagination */
+.btn-outline-secondary:hover {
+  background-color: #0F766E !important;
+  border-color: #0F766E !important;
+  color: #fff !important;
+}
