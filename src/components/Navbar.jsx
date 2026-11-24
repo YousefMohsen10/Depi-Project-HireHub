@@ -1,33 +1,35 @@
+import { Link, useLocation } from 'react-router-dom'
 import logo from '../assets/Brandmark_green.svg'
 import './Navbar.css';
 function Navbar() {
+    const location = useLocation();
     return (
         <>
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container py-3">
-                    <a className="navbar-brand d-flex " href="#">
+                    <Link className="navbar-brand d-flex text-decoration-none text-dark" to="/">
                         <img src={logo} alt="" className="mx-2" />
                         <span className="fs-4 fw-bold">HireHub</span>
-                        </a>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav mx-auto">
                             <li className="nav-item mx-2 fw-bold">
-                                <a className="nav-link active" aria-current="page" href="#">Find Jobs</a>
+                                <a className="nav-link" href="#">Find Jobs</a>
                             </li>
                             <li className="nav-item mx-2 fw-bold">
-                                <a className="nav-link" aria-current="page" href="#">Companies</a>
+                                <Link className={`nav-link ${location.pathname.startsWith('/companies') ? 'active' : ''}`} to="/companies">Companies</Link>
                             </li>
                             <li className="nav-item mx-2 fw-bold">
-                                <a className="nav-link" aria-current="page" href="#">Post a job</a>
+                                <a className="nav-link" href="#">Post a job</a>
                             </li>
                             <li className="nav-item mx-2 fw-bold">
-                                <a className="nav-link" aria-current="page" href="#">About</a>
+                                <a className="nav-link" href="#">About</a>
                             </li>
                         </ul>
-                        <button className='btn btn-md main-color rounded-3 mx-2 border border-2 fw-bold login '> <i class="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
+                        <button className='btn btn-md main-color rounded-3 mx-2 border border-2 fw-bold login '> <i className="fa-solid fa-arrow-right-to-bracket"></i> Login</button>
                         <button className='btn btn-md bg-main-color text-white rounded-3 mx-2 fw-bold sign'>Sign Up</button>
                     </div>
                 </div>

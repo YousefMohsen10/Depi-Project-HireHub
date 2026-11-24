@@ -1,0 +1,148 @@
+.company-details-page {
+  min-height: 70vh;
+}
+
+/* Cover */
+.cover-wrapper {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  background: #e5e7eb;
+}
+.cover-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Company header card — pulled up over the cover */
+.company-header-card {
+  margin-top: -40px;
+  border-radius: 14px !important;
+  position: relative;
+  z-index: 2;
+}
+
+.company-header-logo {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  border-radius: 14px;
+  border: 2px solid #e5e7eb;
+  padding: 6px;
+  background: #fff;
+}
+
+/* Tabs */
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  color: #6b7280;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+  font-size: 0.95rem;
+}
+.tab-btn:hover {
+  color: #0f766e;
+}
+.tab-btn.active {
+  color: #0f766e;
+  border-bottom-color: #0f766e;
+}
+
+/* Follow button */
+.follow-btn {
+  border-color: #0f766e !important;
+  color: #0f766e !important;
+  border-radius: 8px;
+}
+.follow-btn:hover {
+  background-color: #e6f4f3 !important;
+}
+
+/* Job Cards */
+.job-card {
+  border-radius: 12px !important;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.job-card:hover {
+  box-shadow: 0 6px 20px rgba(15, 118, 110, 0.15) !important;
+  transform: translateY(-2px);
+}
+
+.job-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 2px;
+  background: #fff;
+}
+.job-logo-lg {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 4px;
+  background: #fff;
+}
+
+.job-type-badge {
+  background-color: #dbeafe;
+  color: #1d4ed8;
+  font-size: 0.72rem;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+.job-mode-badge {
+  background-color: #dcfce7;
+  color: #15803d;
+  font-size: 0.72rem;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+.job-exp-badge {
+  background-color: #fef3c7;
+  color: #92400e;
+  font-size: 0.72rem;
+  border-radius: 20px;
+  padding: 3px 10px;
+}
+
+/* Job list card */
+.job-list-card {
+  border-radius: 12px !important;
+  transition: box-shadow 0.2s;
+}
+.job-list-card:hover {
+  box-shadow: 0 4px 16px rgba(15, 118, 110, 0.12) !important;
+}
+
+/* Perks */
+.perk-badge {
+  background-color: #e6f4f3;
+  color: #0f766e;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.perk-card {
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 16px 24px;
+  font-size: 0.95rem;
+}
+
+/* Sidebar sticky */
+.sticky-sidebar {
+  border-radius: 14px !important;
+  position: sticky;
+  top: 80px;
+}

@@ -1,0 +1,36 @@
+.companies-page {
+  min-height: 70vh;
+  background-color: #f9f9f9;
+}
+
+.company-card {
+  transition: box-shadow 0.25s, transform 0.25s;
+  border-radius: 12px !important;
+}
+.company-card:hover {
+  box-shadow: 0 8px 24px rgba(15, 118, 110, 0.15) !important;
+  transform: translateY(-3px);
+}
+
+.company-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 4px;
+  background: #fff;
+}
+
+.industry-badge {
+  background-color: #e6f4f3;
+  color: #0f766e;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 20px;
+  padding: 4px 10px;
+}
+
+.text-teal {
+  color: #0f766e;
+}

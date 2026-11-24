@@ -1,13 +1,19 @@
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Companies from "./pages/Companies";
+import CompanyDetails from "./pages/CompanyDetails";
+
 function App() {
-  return ( 
+  return (
     <>
-    <Navbar />
-    <Routes>
-    </Routes>
-    <Footer/>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Navigate to="/companies" replace />} />
+        <Route path="/companies" element={<Companies />} />
+        <Route path="/companies/:id" element={<CompanyDetails />} />
+      </Routes>
+      <Footer />
     </>
   );
 }
