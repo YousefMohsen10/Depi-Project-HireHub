@@ -1,12 +1,69 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import { registerUser } from "../services/authService";
 import brandWhite from "../assets/Brand_mark_white.svg";
 import "./Auth.css";
 
 export default function SignUpPage() {
-  const [role, setRole] = useState("jobseeker");
+  const navigate = useNavigate();
+
+  const [role, setRole] = useState("candidate");
+  const [fullName, setFullName] = useState("");
+  const [companyName, setCompanyName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
   const [showPass, setShowPass] = useState(false);
   const [showConfirm, setShowConfirm] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    setError("");
+    setSuccess("");
+
+    if (password.length < 8) {
+      setError("Password must be at least 8 characters");
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      setError("Passwords do not match");
+      return;
+    }
+
+    if (!acceptedTerms) {
+      setError("You must accept the Terms of Service");
+      return;
+    }
+
+    try {
+      setLoading(true);
+
+      const data = await registerUser(
+        email,
+        password,
+        fullName,
+        role,
+        companyName
+      );
+
+      if (data.session) {
+        navigate("/login");
+      } else {
+        setSuccess("Account created! Please check your email to confirm your account.");
+      }
+
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="auth-wrapper d-flex">
@@ -60,8 +117,8 @@ export default function SignUpPage() {
           <div className="btn-group w-100 mb-4" role="group">
             <button
               type="button"
-              className={`btn btn-role ${role === "jobseeker" ? "active" : ""}`}
-              onClick={() => setRole("jobseeker")}
+              className={`btn btn-role ${role === "candidate" ? "active" : ""}`}
+              onClick={() => setRole("candidate")}
             >
               <i className="fa-regular fa-user me-2"></i>Job Seeker
             </button>
@@ -79,13 +136,16 @@ export default function SignUpPage() {
             <Link to="/signup" className="auth-tab flex-fill active">Sign Up</Link>
           </div>
 
-          <form onSubmit={(e) => e.preventDefault()}>
+          <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label className="form-label fw-semibold small">Full name</label>
               <input
                 type="text"
                 className="form-control auth-input"
                 placeholder="Enter your full name"
+                value={fullName}
+                onChange={(e) => setFullName(e.target.value)}
+                required
               />
             </div>
 
@@ -96,6 +156,9 @@ export default function SignUpPage() {
                   type="text"
                   className="form-control auth-input"
                   placeholder="Enter your company name"
+                  value={companyName}
+                  onChange={(e) => setCompanyName(e.target.value)}
+                  required
                 />
               </div>
             )}
@@ -106,6 +169,9 @@ export default function SignUpPage() {
                 type="email"
                 className="form-control auth-input"
                 placeholder={role === "employer" ? "you@company.com" : "you@example.com"}
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
               />
             </div>
 
@@ -116,6 +182,9 @@ export default function SignUpPage() {
                   type={showPass ? "text" : "password"}
                   className="form-control auth-input pe-5"
                   placeholder="Create a password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
                 />
                 <button
                   type="button"
@@ -136,6 +205,9 @@ export default function SignUpPage() {
                   type={showConfirm ? "text" : "password"}
                   className="form-control auth-input pe-5"
                   placeholder="Re-enter your password"
+                  value={confirmPassword}
+                  onChange={(e) => setConfirmPassword(e.target.value)}
+                  required
                 />
                 <button
                   type="button"
@@ -149,7 +221,13 @@ export default function SignUpPage() {
             </div>
 
             <div className="form-check mb-4">
-              <input className="form-check-input" type="checkbox" id="terms" />
+              <input
+                className="form-check-input"
+                type="checkbox"
+                id="terms"
+                checked={acceptedTerms}
+                onChange={(e) => setAcceptedTerms(e.target.checked)}
+              />
               <label className="form-check-label small" htmlFor="terms">
                 I agree to the
                 <span className="text-decoration-none mx-1" style={{ color: "#1a7a5e" }}>
@@ -162,7 +240,13 @@ export default function SignUpPage() {
                 .
               </label>
             </div>
+            {error && (
+              <div className="alert alert-danger">{error}</div>
+            )}
 
+            {success && (
+              <div className="alert alert-success">{success}</div>
+            )}
             <button type="submit" className="btn btn-hirehub text-white w-100 mb-3">
               Create Account
             </button>

@@ -1,11 +1,41 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { login } from "../services/authService";
 import brandWhite from "../assets/Brand_mark_white.svg";
 import "./Auth.css";
 
 export default function LoginPage() {
   const [role, setRole] = useState("jobseeker");
   const [showPass, setShowPass] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    setError("");
+    setLoading(true);
+
+    try {
+      const data = await login(email, password);
+
+      const userRole = data.user.user_metadata.role;
+
+      if (userRole !== role) {
+        setError("You selected the wrong account type.");
+        return;
+      }
+
+      console.log("Login successful:", data.user);
+
+    } catch (error) {
+      setError(error.message);
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
     <div className="auth-wrapper d-flex">
@@ -74,13 +104,16 @@ export default function LoginPage() {
             <Link to="/signup" className="auth-tab flex-fill">Sign Up</Link>
           </div>
 
-          <form onSubmit={(e) => e.preventDefault()}>
+          <form onSubmit={handleSubmit}>
             <div className="mb-3">
               <label className="form-label fw-semibold small">Email address</label>
               <input
                 type="email"
                 className="form-control auth-input"
                 placeholder="you@example.com"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
               />
             </div>
 
@@ -91,6 +124,9 @@ export default function LoginPage() {
                   type={showPass ? "text" : "password"}
                   className="form-control auth-input pe-5"
                   placeholder="Enter your password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
                 />
                 <button
                   type="button"
@@ -114,6 +150,11 @@ export default function LoginPage() {
               </a>
             </div>
 
+            {error && (
+              <div className="alert alert-danger">
+                {error}
+              </div>
+            )}
             <button type="submit" className="btn btn-hirehub text-white w-100 mb-3">
               Log In
             </button>
