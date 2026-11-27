@@ -1,36 +1,29 @@
-import { useState, useMemo } from "react";
+import { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import dbData from "../../../db/db.json";
 import "./JobDetails.css";
-
-const ALL_JOBS      = dbData.jobs;
-const ALL_COMPANIES = dbData.companies;
 
 export default function JobDetails() {
   const { id }     = useParams();
+  const [jobs, setJobs] = useState(null);
+  const [companies, setCompanies] = useState([]);
   const [saved, setSaved] = useState(false);
   const [savedSimilar, setSavedSimilar] = useState([]);
+  useEffect(() => {
+    fetch("http://localhost:3000/jobs")
+      .then((response) => response.json())
+      .then((data) => setJobs(data));
 
-  // ── Find job + company ──────────────────────────────────────
-  const job = useMemo(
-    () => ALL_JOBS.find((j) => String(j.id) === String(id)) || null,
-    [id]
-  );
+    fetch("http://localhost:3000/companies")
+      .then((response) => response.json())
+      .then((data) => setCompanies(data));
+  }, []);
 
-  const company = useMemo(
-    () => (job ? ALL_COMPANIES.find((c) => c.id === job.companyId) || null : null),
-    [job]
-  );
-
-  const similarJobs = useMemo(() => {
-    if (!job) return [];
-    return ALL_JOBS.filter(
-      (j) => j.id !== job.id &&
-        (j.category === job.category || j.companyId === job.companyId)
-    ).slice(0, 3);
-  }, [job]);
-
-  // ── Helpers ──────────────────────────────────────────────────
+  const job = jobs?.find((item) => String(item.id) === id);
+  const company = companies.find((item) => item.id === job?.companyId);
+  const similarJobs = jobs?.filter((item) =>
+    item.id !== job?.id &&
+    (item.category === job?.category || item.companyId === job?.companyId)
+  ).slice(0, 3) || [];
   function formatDate(dateStr) {
     if (!dateStr) return "";
     return new Date(dateStr).toLocaleDateString("en-US", {
@@ -55,8 +48,8 @@ export default function JobDetails() {
       prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]
     );
   }
+  if (!jobs) return null;
 
-  // ── Not found ────────────────────────────────────────────────
   if (!job) {
     return (
       <div className="container py-5 text-center">
@@ -72,7 +65,7 @@ export default function JobDetails() {
 
   return (
     <div className="job-details-page">
-      {/* Breadcrumb */}
+      
       <div className="container py-3">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb mb-0 small">
@@ -93,10 +86,10 @@ export default function JobDetails() {
 
       <div className="container pb-5">
 
-        {/* ── Header Card ─────────────────────────────────────── */}
+        
         <div className="card border rounded-3 p-4 mb-4">
           <div className="d-flex flex-wrap justify-content-between align-items-start gap-3">
-            {/* Left: logo + title */}
+            
             <div className="d-flex gap-3 align-items-center">
               <img
                 src={job.logo}
@@ -119,7 +112,7 @@ export default function JobDetails() {
               </div>
             </div>
 
-            {/* Right: CTA buttons */}
+            
             <div className="d-flex flex-column gap-2">
               <button className="btn bg-main-color text-white px-4 fw-semibold">Apply Now</button>
               <button
@@ -132,7 +125,7 @@ export default function JobDetails() {
             </div>
           </div>
 
-          {/* Meta row */}
+          
           <div className="mt-3 d-flex flex-wrap gap-2 text-muted small">
             <span>Posted {timeAgo(job.postedAt)}</span>
             <span>·</span>
@@ -142,10 +135,10 @@ export default function JobDetails() {
           </div>
         </div>
 
-        {/* ── Two-column layout ────────────────────────────────── */}
+        
         <div className="row g-4">
 
-          {/* Left: description */}
+          
           <div className="col-lg-8">
             <div className="card border rounded-3 p-4 mb-4">
 
@@ -191,7 +184,7 @@ export default function JobDetails() {
               )}
             </div>
 
-            {/* Similar Jobs */}
+            
             {similarJobs.length > 0 && (
               <div className="mb-4">
                 <h5 className="fw-bold mb-3">Similar jobs</h5>
@@ -201,7 +194,7 @@ export default function JobDetails() {
                     return (
                       <div className="col-md-4" key={sj.id}>
                         <div className="card border rounded-3 p-3 h-100 similar-job-card">
-                          {/* Header */}
+                          
                           <div className="d-flex justify-content-between align-items-start mb-2">
                             <img
                               src={sj.logo}
@@ -230,7 +223,7 @@ export default function JobDetails() {
                             <span className="badge jd-badge-secondary" style={{ fontSize: ".68rem" }}>{sj.workMode}</span>
                           </div>
 
-                          {/* Footer */}
+                          
                           <div className="d-flex justify-content-between align-items-center mt-auto">
                             <div className="form-check mb-0">
                               <input
@@ -257,10 +250,10 @@ export default function JobDetails() {
             )}
           </div>
 
-          {/* Right sidebar */}
+          
           <div className="col-lg-4">
 
-            {/* Job Overview */}
+            
             <div className="card border rounded-3 p-4 mb-4">
               <h6 className="fw-bold mb-3">Job overview</h6>
               <ul className="list-unstyled jd-overview-list">
@@ -311,7 +304,7 @@ export default function JobDetails() {
               </ul>
             </div>
 
-            {/* About the company */}
+            
             {company && (
               <div className="card border rounded-3 p-4 mb-4">
                 <h6 className="fw-bold mb-3">About the company</h6>
@@ -340,7 +333,7 @@ export default function JobDetails() {
               </div>
             )}
 
-            {/* Share */}
+            
             <div className="card border rounded-3 p-4">
               <h6 className="fw-bold mb-1">Share this job</h6>
               <p className="text-muted small mb-3">Help someone find their next chapter.</p>
