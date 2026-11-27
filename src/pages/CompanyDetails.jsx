@@ -36,7 +36,6 @@ function CompanyDetails() {
 
   return (
     <div className="company-details-page">
-      {/* Breadcrumb */}
       <div className="container pt-4 pb-2">
         <nav aria-label="breadcrumb">
           <ol className="breadcrumb mb-0 small">
@@ -50,12 +49,10 @@ function CompanyDetails() {
         </nav>
       </div>
 
-      {/* Cover Image */}
       <div className="cover-wrapper">
         <img src={company.cover} alt="cover" className="cover-img" />
       </div>
 
-      {/* Company Header */}
       <div className="container">
         <div className="company-header-card card border-0 shadow-sm p-4 mb-4">
           <div className="d-flex flex-wrap justify-content-between align-items-start gap-3">
@@ -89,7 +86,6 @@ function CompanyDetails() {
             </button>
           </div>
 
-          {/* Tabs */}
           <div className="tabs mt-4 border-bottom">
             {["about", "openJobs", "life"].map((tab) => (
               <button
@@ -107,17 +103,14 @@ function CompanyDetails() {
           </div>
         </div>
 
-        {/* Tab Content */}
         {activeTab === "about" && (
           <div className="row g-4 mb-5">
-            {/* About Section */}
             <div className="col-lg-8">
               <div className="card border-0 shadow-sm p-4 mb-4">
                 <h5 className="fw-bold mb-3">About {company.name}</h5>
                 <p className="text-muted">{company.about}</p>
               </div>
 
-              {/* Stats */}
               <div className="card border-0 shadow-sm p-4 mb-4">
                 <div className="row text-center g-3">
                   <div className="col-4">
@@ -135,7 +128,6 @@ function CompanyDetails() {
                 </div>
               </div>
 
-              {/* Open Jobs Preview */}
               <div className="mb-4">
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <h5 className="fw-bold mb-0">Open jobs at {company.name}</h5>
@@ -184,7 +176,6 @@ function CompanyDetails() {
                 </div>
               </div>
 
-              {/* Life at Company */}
               {company.lifeAtCompany && (
                 <div className="card border-0 shadow-sm p-4">
                   <h5 className="fw-bold mb-2">Life at {company.name}</h5>
@@ -202,7 +193,6 @@ function CompanyDetails() {
               )}
             </div>
 
-            {/* Sidebar */}
             <div className="col-lg-4">
               <div className="card border-0 shadow-sm p-4 sticky-sidebar">
                 <h6 className="fw-bold mb-3">At a glance</h6>
@@ -238,7 +228,6 @@ function CompanyDetails() {
           </div>
         )}
 
-        {/* Open Jobs Tab */}
         {activeTab === "openJobs" && (
           <div className="mb-5">
             <h5 className="fw-bold mb-4">
@@ -288,7 +277,6 @@ function CompanyDetails() {
           </div>
         )}
 
-        {/* Life at Company Tab */}
         {activeTab === "life" && company.lifeAtCompany && (
           <div className="mb-5">
             <div className="card border-0 shadow-sm p-5 text-center">

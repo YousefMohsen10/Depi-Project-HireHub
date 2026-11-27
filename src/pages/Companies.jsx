@@ -19,7 +19,6 @@ function Companies() {
   return (
     <div className="companies-page py-5">
       <div className="container">
-        {/* Header */}
         <p className="text-muted small mb-1">Discover your next workplace</p>
         <h2 className="fw-bold mb-1">
           Great companies. Better opportunities.
@@ -29,12 +28,10 @@ function Companies() {
           you belong.
         </p>
 
-        {/* Results count */}
         <p className="mb-3 fw-semibold">
           {companies.length.toLocaleString()} companies
         </p>
 
-        {/* Companies Grid */}
         {loading ? (
           <div className="text-center py-5">
             <div className="spinner-border text-teal" role="status" />
