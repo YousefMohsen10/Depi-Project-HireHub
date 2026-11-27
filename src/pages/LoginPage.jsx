@@ -5,7 +5,7 @@ import brandWhite from "../assets/Brand_mark_white.svg";
 import "./Auth.css";
 
 export default function LoginPage() {
-  const [role, setRole] = useState("jobseeker");
+  const [role, setRole] = useState("candidate");
   const [showPass, setShowPass] = useState(false);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
