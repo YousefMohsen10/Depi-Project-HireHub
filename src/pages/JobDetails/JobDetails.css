@@ -1,0 +1,108 @@
+/* Job Details page */
+.job-details-page {
+  min-height: 60vh;
+}
+
+.jd-company-logo {
+  object-fit: contain;
+  border: 1px solid #e9ecef;
+  background: #fff;
+  padding: 3px;
+}
+
+.jd-badge-primary {
+  background-color: #E0F2F1 !important;
+  color: #0F766E !important;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.jd-badge-secondary {
+  background-color: #F1F5F9 !important;
+  color: #475569 !important;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 5px 12px;
+  border-radius: 20px;
+}
+
+.jd-skill-badge {
+  background-color: #E0F2F1 !important;
+  color: #0F766E !important;
+  font-size: 0.8rem;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.jd-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.jd-list li::before {
+  content: "•";
+  color: #0F766E;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.jd-overview-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.jd-overview-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.jd-overview-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: #E0F2F1;
+  border-radius: 50%;
+  color: #0F766E;
+  flex-shrink: 0;
+  font-size: 0.85rem;
+}
+
+.saved-btn {
+  color: #0F766E !important;
+  border-color: #0F766E !important;
+}
+
+.similar-job-card {
+  transition: box-shadow 0.2s, transform 0.2s;
+  border-color: #e9ecef !important;
+}
+
+.similar-job-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.jd-share-icon {
+  transition: color 0.2s;
+}
+
+.jd-share-icon:hover {
+  color: #0F766E !important;
+}
+
+.bookmark-btn {
+  background: none;
+  border: none;
+}
+
+.jobs-checkbox:checked {
+  background-color: #0F766E !important;
+  border-color: #0F766E !important;
+}
