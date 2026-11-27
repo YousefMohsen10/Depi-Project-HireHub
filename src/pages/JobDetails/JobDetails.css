@@ -41,6 +41,7 @@
   list-style: none;
   padding-left: 0;
 }
+
 .jd-list li::before {
   content: "•";
   color: #0F766E;
@@ -53,11 +54,13 @@
   flex-direction: column;
   gap: 16px;
 }
+
 .jd-overview-list li {
   display: flex;
   align-items: flex-start;
   gap: 12px;
 }
+
 .jd-overview-icon {
   display: flex;
   align-items: center;
@@ -80,14 +83,16 @@
   transition: box-shadow 0.2s, transform 0.2s;
   border-color: #e9ecef !important;
 }
+
 .similar-job-card:hover {
-  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
   transform: translateY(-2px);
 }
 
 .jd-share-icon {
   transition: color 0.2s;
 }
+
 .jd-share-icon:hover {
   color: #0F766E !important;
 }
